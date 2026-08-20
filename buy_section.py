@@ -38,8 +38,6 @@ def add_product(product_family, product_name, quantity, buy_price, sell_price, u
                 "unit": unit
             }
         }
-        print("########################################")
-        print(add_database)
 
 
         finance["expense"] += quantity * buy_price

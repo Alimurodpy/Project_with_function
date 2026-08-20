@@ -353,9 +353,3 @@ history_info = []
 
 def get_history():
     return history_info
-
-
-for family, products in default_database.items():
-    print(f"Family: {family}")
-    for product, info in products.items():
-        print(f"|Product: {product}, \t| Quantity: {info['quantity']}, Buy Price: {info['buy_price']}, Sell Price: {info['sell_price']}, Unit: {info['unit']}")
